@@ -1,0 +1,75 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 25}, {308, 380}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "63412FFD-FBD6-4D90-B63A-B129C7DE988F",
+          "font_size" : 14,
+          "corner_radius" : 0,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : true,
+          "border_width" : 0,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "textview1",
+          "flex" : "WH"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 420}, {262, 40}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "segctl1act",
+          "flex" : "WT",
+          "segments" : "NAVTEX 490|NAVTEX 518|Wetter",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "3FF4D2F0-2466-4F35-88EC-0404DEE77489",
+          "class" : "SegmentedControl",
+          "name" : "segmentedcontrol1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{274, 420}, {40, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LT",
+          "action" : "btn1act",
+          "name" : "button1",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "A4D6817B-4B23-4CBC-BBDC-85233C9F59B2",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:refresh_32"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
